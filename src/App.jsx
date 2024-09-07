@@ -1,11 +1,16 @@
 import QuoteGenerator from "./quote-generator";
-import quotes from "./data/quotes.json";
+import quoteData from "./data/quotes.json";
 import "./index.css";
 
 function App() {
   return (
-    <div style={{ fontFamily: "Open Sans" }}>
-      <QuoteGenerator quotes={quotes.listOfQuotes} />
+    <div
+      style={{
+        fontFamily: `"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif`,
+      }}
+    >
+      <QuoteGenerator quotes={quoteData.listOfQuotes} />
     </div>
   );
 }

@@ -20,7 +20,6 @@ const QuoteGenerator = ({ quotes }) => {
     "#E6B333", // brown
     "#3366E6", // dark blue
     "#999966", // dirty yellow
-    "#99FF99", // light green
     "#B34D4D", // dark red
     "#809900", // olive
     "#E6B3B3", // light pink
@@ -28,6 +27,7 @@ const QuoteGenerator = ({ quotes }) => {
     "#CCFF1A", // green
     "#33FFCC", // light blue
     "#66994D", // dirty green
+    "#B366bb",
   ];
 
   // Get the current background color based on the random index
@@ -43,7 +43,11 @@ const QuoteGenerator = ({ quotes }) => {
       }}
     >
       <div className="quote-content">
-        <h1 className="rainbow-text pacifico-regular">Quote Generator</h1>
+        <h1 className="rainbow-text pacifico-regular">
+          <a href="https://github.com/AVidhanR/QuoteGenerator" target="_blank">
+            Quote Generator
+          </a>
+        </h1>
         <p>&ldquo;{quotes[randomIndex]}&rdquo;</p>
         <div>
           <button onClick={generateQuote}>New Quote</button>
@@ -51,10 +55,13 @@ const QuoteGenerator = ({ quotes }) => {
       </div>
       <footer>
         Made with ❤️ by{" "}
-        <a href="https://linkedin.com/in/AVidhanR">A Vidhan Reddy</a>
+        <a href="https://linkedin.com/in/AVidhanR" target="_blank">
+          A Vidhan Reddy
+        </a>
       </footer>
     </div>
   );
 };
 
 export default QuoteGenerator;
+// by AVidhanR

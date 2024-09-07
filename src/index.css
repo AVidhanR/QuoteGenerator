@@ -50,8 +50,6 @@
   > p {
     margin: 0;
     padding-bottom: 1rem;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
     font-size: larger;
   }
 
@@ -60,7 +58,7 @@
 
     > button {
       display: inline-block;
-      padding: 0.4rem 1rem;
+      padding: 0.5rem 1rem;
       text-decoration: none;
       border: none;
       border-radius: 0.6rem;
@@ -87,6 +85,7 @@ footer {
   }
 
   > a:hover {
+    transition: color 0.7s ease;
     color: whitesmoke;
   }
 }
