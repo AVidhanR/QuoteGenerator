@@ -1,8 +1,13 @@
-import "./App.css";
+import QuoteGenerator from "./quote-generator";
+import quotes from "./data/quotes.json";
+import "./index.css";
 
 function App() {
-  return;
-  <>Hello</>;
+  return (
+    <div style={{ fontFamily: "Open Sans" }}>
+      <QuoteGenerator quotes={quotes.listOfQuotes} />
+    </div>
+  );
 }
 
 export default App;
