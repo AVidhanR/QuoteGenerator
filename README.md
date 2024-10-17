@@ -5,3 +5,4 @@
 - The project was built using `Vite + ReactJS`.
 - Visit the website from [here](https://myquote-generator.vercel.app)
 - Created by [AVidhanR](https://linkedin.com/in/AVidhanR)
+<!-- ![image](https://github.com/user-attachments/assets/9c7def77-1d0c-426d-acf1-63385e934948) -->
