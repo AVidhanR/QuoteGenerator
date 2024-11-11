@@ -33,7 +33,7 @@
   padding: 1rem;
   border-radius: 1.2rem;
   box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-  height: 100vh;
+  height: 100dvh;
 }
 
 .quote-content {
@@ -44,7 +44,6 @@
   border-radius: 1rem;
   padding: calc(1rem);
   background-color: white;
-  display: flex;
   justify-content: center;
 
   > p {
